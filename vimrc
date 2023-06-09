@@ -20,7 +20,9 @@ call plug#end()
 " }}} PLUGINS
 
 " SELF HELP {{{
-" * and # for goto next/previous occurence
+" This is just a collection of useful vim tricks I want to remember.
+" - * and # to jump to next/previous occurence of word under cursor
+" - <c-i> and <c-o> for navigating In and Out of the jump stack
 " }}} SELF HELP
 
 " GENERAL {{{

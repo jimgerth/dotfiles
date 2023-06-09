@@ -1,0 +1,55 @@
+[user]
+	name = Jim Gerth
+	email = jim.frederic.gerth@gmail.com
+[rebase]
+    autosquash = true
+[alias]
+    cf = config
+    lc = config --list
+	st = status
+	df = diff
+    sw = show
+    ad = add
+	cm = commit
+	us = restore
+    dc = reset --hard HEAD # discard
+    um = checkout -B main origin/main
+
+    lg = log --graph --pretty='format:%C(auto)%h%<|(80,trunc)%d%Cgreen%>>|(100)%an: %Creset%s%C(auto)'
+    la = log --all --graph --pretty='format:%C(auto)%h%<|(80,trunc)%d%Cgreen%>>|(100)%an: %Creset%s%C(auto)'
+    ls = log --graph
+    ll = log --all --graph
+
+    br = branch
+    # bm = checkout -B <new branch> master
+
+    sh = stash
+    pp = stash pop
+    sp = stash pop
+
+	co = checkout
+
+	rb = rebase
+	ir = rebase -i --autosquash
+    rc = rebase --continue
+    cr = rebase --continue
+    ar = rebase --abort
+    ra = rebase --abort
+
+	cp = cherry-pick
+    cc = cherry-pick --continue
+    ac = cherry-pick --abort
+    ca = cherry-pick --abort
+
+	fc = fetch --prune
+	# pl = stash && checkout master && pull
+	ps = push origin --set-upstream
+	fp = push origin -f --set-upstream
+
+    sm = submodule
+    sd = submodule deinit --all -f
+    si = submodule init
+    su = submodule update --recursive
+
+    hp = help
+    cf = config

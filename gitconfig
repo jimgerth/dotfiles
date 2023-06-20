@@ -7,8 +7,8 @@
     cf = config
     lc = config --list
     st = status
-    df = diff
-    sw = show
+    df = diff -w
+    sw = show -w
     ad = add
     cm = commit
     us = restore

@@ -6,6 +6,7 @@
 call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } | Plug 'junegunn/fzf.vim'
+Plug 'romainl/vim-cool'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 

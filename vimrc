@@ -86,6 +86,9 @@ augroup autosource
 augroup end
 " }}} VIMRC MANAGEMENT
 
+" Customize current positon in file indication
+let g:airline_section_z = ':%l/%L=%p%% %3c|'
+
 " COLORSCHEME {{{
 let g:xcodedark_green_comments = 1
 let g:xcodedark_match_paren_style = 1
